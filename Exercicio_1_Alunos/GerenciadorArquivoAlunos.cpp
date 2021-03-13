@@ -80,9 +80,9 @@ namespace Exercicio1
                 return;
             }
 
-            if (quantidadeAtualDeAlunos >= 50)
+            if (quantidadeAtualDeAlunos >= m_maximoDeRegistros)
             {
-                cout << "O arquivo ja possui 50 alunos (maximo permitido na turma). Nao sera possivel adicionar o aluno de matricula " << t_matricula << "." << endl;
+                cout << "O arquivo ja possui " << m_maximoDeRegistros << " alunos (maximo permitido na turma). Nao sera possivel adicionar o aluno de matricula " << t_matricula << "." << endl;
                 return;
             }
             fstream arquivo(m_nomeDoArquivo, ios::out | ios::binary | ios::app);
