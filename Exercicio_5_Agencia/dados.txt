@@ -1,0 +1,6 @@
+Gisele                        FA 1.80 65.00
+Julia                         FB 1.75 62.25
+Francisco                     MD 1.90 75.00
+Margarida                     FC 1.85 64.75
+Catarina                      FC 1.70 60.50
+Charles                       MA 2.00 80.00
