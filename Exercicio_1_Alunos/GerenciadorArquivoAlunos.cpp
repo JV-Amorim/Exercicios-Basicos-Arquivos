@@ -85,6 +85,7 @@ namespace Exercicio1
                 cout << "O arquivo ja possui " << m_maximoDeRegistros << " alunos (maximo permitido na turma). Nao sera possivel adicionar o aluno de matricula " << t_matricula << "." << endl;
                 return;
             }
+
             fstream arquivo(m_nomeDoArquivo, ios::out | ios::binary | ios::app);
 
             if (arquivo.fail())
